@@ -5,7 +5,7 @@
             class="flex items-center text-lg font-medium text-black"
             to="/"
             >
-            <img class="w-6 h-6 cursor-pointer hover:scale-110 sm:transition-transform" src="/er-logo.png" alt="brand logo">
+            <img class="w-12 h-12 cursor-pointer hover:scale-110 sm:transition-transform" src="/icon-48x48.png" alt="ER logo">
             </NuxtLink>
 
             <!-- <ul class="hidden space-x-5 sm:flex sm:items-center">

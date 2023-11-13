@@ -21,7 +21,11 @@ module.exports = {
     },
     extend: {
       colors: {
-        'blueribbon': '#1b6dff'
+        'blueRibbon': '#1b6dff',
+        'busYellow': '#efbe03',
+        'redScarlet': '#FF1A1A',
+        'westSide': '#FF8C1A',
+        'greenApple': '#1bb800'
       }
     }
   },
