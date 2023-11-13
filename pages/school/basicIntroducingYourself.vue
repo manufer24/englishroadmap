@@ -10,7 +10,7 @@
                         y practicar. 
                     </p>
                     
-                    <p class="mt-4 p-2 bg-blueribbon w-auto text-white rounded-md flex items-center justify-center">
+                    <p class="mt-4 p-2 bg-blueRibbon w-auto text-white rounded-md flex items-center justify-center">
                         visita los siguientes enlaces haciendo CLICK sobre ellos para descubrir el contenido
                     </p>
                 </div>
