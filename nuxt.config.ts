@@ -3,8 +3,12 @@ export default defineNuxtConfig({
   pages: true,
   modules: [
     "@nuxtjs/tailwindcss",
-    "@vite-pwa/nuxt"
+    "@vite-pwa/nuxt",
+    '@nuxtjs/color-mode'
   ],
+  colorMode: {
+    classSuffix: ''
+  },
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {

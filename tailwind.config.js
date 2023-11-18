@@ -8,6 +8,7 @@ module.exports = {
     "./app.vue",
     "./error.vue",
   ],
+  darkMode: 'class',
   theme: {
     container: {
       center: true,
@@ -25,7 +26,9 @@ module.exports = {
         'busYellow': '#efbe03',
         'redScarlet': '#FF1A1A',
         'westSide': '#FF8C1A',
-        'greenApple': '#1bb800'
+        'greenApple': '#1bb800',
+        'bgDark': '#1c1c1c',
+        'textDark': '#d9d9d9',
       }
     }
   },
