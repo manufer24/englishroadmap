@@ -1,32 +1,28 @@
 <template>
-    <header class="bg-white px-5 py-5 text-black shadow-lg">
-        <nav class="container mx-auto flex items-center justify-center">
+    <header 
+        class="
+            flex items-center
+            bg-white px-5 h-16 sm:py-5 
+            sm:justify-around text-black 
+            shadow-lg dark:bg-bgDark dark:text-textDark
+            "
+    >
+        <div class="container mx-auto flex justify-between">
             <NuxtLink
-            class="flex items-center text-lg font-medium text-black"
-            to="/"
+                class=""
+                to="/"
             >
-            <img class="w-12 h-12 cursor-pointer hover:scale-110 sm:transition-transform" src="/icon-512x512.png" alt="ER logo">
+                <img class="w-12 h-10 cursor-pointer hover:scale-110 sm:transition-transform" src="/icon-512x512.png" alt="ER logo">
             </NuxtLink>
-
-            <!-- <ul class="hidden space-x-5 sm:flex sm:items-center">
-                
-                <li>
-                    <a class="text-black hover:text-[#1B6DFF]" href="#">roadmap</a>
-                </li> 
-                <li>
-                    <a class="text-black hover:text-[#1B6DFF]" href="#">best practices</a>
-                </li> 
-            </ul>
-            <button class="block cursor-pointer text-gray-400 hover:text-gray-50 sm:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #000;transform: ;msFilter:;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
-            </button> -->
-            </nav>
+            <primaryMenu />
+        </div>
     </header>
 
-    <article>
+    <main>
         <slot />
-    </article>
+    </main>
 </template>
 
 <script setup>
+import primaryMenu from '~/components/primaryMenu.vue';
 </script>
