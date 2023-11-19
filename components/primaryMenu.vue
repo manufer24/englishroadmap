@@ -7,11 +7,11 @@
             >
                 <img
                     v-if="$colorMode.preference == 'dark'"
-                    src="/sun.svg" alt="img" class="w-10 h-10"
+                    src="/sun.svg" alt="img" class="w-9 h-9"
                 >
                 <img
                     v-if="$colorMode.preference == 'light'"
-                    src="/moon.svg" alt="img" class="w-10 h-10"
+                    src="/moon.svg" alt="img" class="w-9 h-9"
                 >
             </button>
         </nav>
@@ -28,10 +28,10 @@ type Theme = 'light' | 'dark'
 const LOCAL_STORAGE_THEME_KEY = 'theme'
 
 
-const darkMode = useState('theme', () => false)
+const darkMode:Ref<boolean> = useState('theme' , () => false)
 
 
-const setTheme = (newTheme: Theme) => {
+const setTheme = (newTheme: Theme):void => {
 
     localStorage.setItem(LOCAL_STORAGE_THEME_KEY, newTheme)
 
@@ -44,7 +44,7 @@ const setTheme = (newTheme: Theme) => {
 
 onMounted(() => {
 
-    const isDarkModePreferred = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const isDarkModePreferred:boolean = window.matchMedia('(prefers-color-scheme: dark)').matches
 
 
     const themeFromLocalStorage = localStorage.getItem(LOCAL_STORAGE_THEME_KEY) as Theme

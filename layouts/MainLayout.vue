@@ -2,12 +2,12 @@
     <header 
         class="
             flex items-center
-            bg-white px-5 h-16 sm:py-5 
+            px-5 h-16 sm:py-5 
             sm:justify-around text-black 
-            shadow-lg dark:bg-bgDark dark:text-textDark
+            dark:bg-bgDark dark:text-textDark
             "
     >
-        <div class="container mx-auto flex justify-between">
+        <div class="container mx-auto flex justify-between items-center h-16 border-b border-gray-300">
             <NuxtLink
                 class=""
                 to="/"
