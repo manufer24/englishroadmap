@@ -3,21 +3,21 @@
         <section class="container mx-auto min-h-auto min-h-[192px] border-b border-b-gray-300">
             <div class="py-6 pb-14 text-left">
                 <h1 class=" px-0 mb-2 text-2xl font-bold sm:mb-4 sm:text-center sm:text-5xl">
-                    <span class="text-busYellow">E</span>
-                    <span class="text-blueRibbon">n</span>
-                    <span class="text-redScarlet">g</span>
-                    <span class="text-greenApple">l</span>
-                    <span class="text-westSide">i</span>
-                    <span class="text-blueRibbon">s</span>
-                    <span class="text-redScarlet">h</span>
+                    <span class="text-primary">E</span>
+                    <span class="text-secondary">n</span>
+                    <span class="text-accent">g</span>
+                    <span class="text-primary">l</span>
+                    <span class="text-secondary">i</span>
+                    <span class="text-accent">s</span>
+                    <span class="text-primary">h</span>
                     <span class="mx-2"></span>
-                    <span class="text-busYellow">R</span>
-                    <span class="text-blueRibbon">o</span>
-                    <span class="text-redScarlet">a</span>
-                    <span class="text-westSide">d</span>
-                    <span class="text-greenApple">m</span>
-                    <span class="text-blueRibbon">a</span>
-                    <span class="text-redScarlet">p</span>
+                    <span class="text-secondary">R</span>
+                    <span class="text-accent">o</span>
+                    <span class="text-primary">a</span>
+                    <span class="text-secondary">d</span>
+                    <span class="text-accent">m</span>
+                    <span class="text-primary">a</span>
+                    <span class="text-secondary">p</span>
                 </h1>
                 <p class="px-0 text-md">
                     Hojas de ruta,
@@ -32,51 +32,31 @@
                     Haz click en los botones para descubrir la información
                 </h3>
                 <nav>
-                    <ul class="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+                    <ul class="flex flex-col flex-wrap items-center justify-center gap-4 md:flex-row">
                         <li>
-                            <NuxtLink class="
-                                    group bg-busYellow p-2.5 sm:p-3.5 block no-underline 
-                                    rounded-lg relative text-white font-regular text-lg
-                                    overflow-hidden hover:opacity-90 text-center 
-                                    sm:hover:scale-95 sm:transition-transform" to="/school/basicABC">
-                                    <span class="font-bold">#1</span> Abecedario
-                            </NuxtLink>
+                            <button class="btn btn-active bg-primary text-primary-content hover:bg-primary-content hover:text-primary text-lg">
+                                <nuxt-link class="h-full flex items-center" to="/school/basicABC"><span class="font-bold mr-2">#1</span> Abecedario</nuxt-link>
+                            </button>
                         </li>
                         <li>
-                            <NuxtLink class="
-                                    group bg-blueRibbon p-2.5 sm:p-3.5 block no-underline 
-                                    rounded-lg relative text-white font-regular text-lg
-                                    overflow-hidden hover:opacity-90 text-center 
-                                    sm:hover:scale-95 sm:transition-transform" to="/school/basicIntroducingYourself">
-                                    <span class="font-bold">#2</span> presentarse
-                            </NuxtLink>
+                            <button class="btn btn-active w-56 bg-secondary text-secondary-content hover:bg-secondary-content hover:text-secondary text-lg">
+                                <nuxt-link class="h-full flex items-center" to="/school/basicIntroducingYourself"><span class="font-bold mr-2">#2</span>Presentarse</nuxt-link>
+                            </button>
                         </li>
                         <li>
-                            <NuxtLink class="
-                                    group bg-redScarlet p-2.5 sm:p-3.5 block no-underline 
-                                    rounded-lg relative text-white font-regular text-lg
-                                    overflow-hidden hover:opacity-90 text-center 
-                                    sm:hover:scale-95 sm:transition-transform" to="/school/basicGreetingAndGoodbye">
-                                    <span class="font-bold">#3</span> saludos/despedidas
-                            </NuxtLink>
+                            <button class="btn btn-active w-56 bg-accent text-accent-content hover:bg-accent-content hover:text-accent text-lg">
+                                <nuxt-link class="h-full flex items-center" to="/school/basicGreetingAndGoodbye"><span class="font-bold mr-2">#3</span>Saludos/despedidas</nuxt-link>
+                            </button>
                         </li>
                         <li>
-                            <NuxtLink class="
-                                    group bg-greenApple p-2.5 sm:p-3.5 block no-underline 
-                                    rounded-lg relative text-white font-regular text-lg
-                                    overflow-hidden hover:opacity-90 text-center 
-                                    sm:hover:scale-95 sm:transition-transform" to="/school/basicDescribingPeople">
-                                    <span class="font-bold">#4</span> Describir/indentificar
-                            </NuxtLink>
+                            <button class="btn btn-active bg-primary text-primary-content hover:bg-primary-content hover:text-primary text-lg">
+                                <nuxt-link class="h-full flex items-center" to="/school/basicDescribingPeople"><span class="font-bold mr-2">#4</span>Describir/indentificar</nuxt-link>
+                            </button>
                         </li>
                         <li>
-                            <NuxtLink class="
-                                    group bg-westSide p-2.5 sm:p-3.5 block no-underline 
-                                    rounded-lg relative text-white font-regular text-lg
-                                    overflow-hidden hover:opacity-90 text-center 
-                                    sm:hover:scale-95 sm:transition-transform" to="/school/basicColors">
-                                    <span class="font-bold">#5</span> Colors
-                            </NuxtLink>
+                            <button class="btn btn-active w-56 bg-secondary text-secondary-content hover:bg-secondary-content hover:text-secondary text-lg">
+                                <nuxt-link class="h-full flex items-center" to="/school/basicColors"><span class="font-bold mr-2">#5</span>Colors</nuxt-link>
+                            </button>
                         </li>
                     </ul>
                 </nav>

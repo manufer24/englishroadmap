@@ -7,7 +7,9 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode'
   ],
   colorMode: {
-    classSuffix: ''
+    preference: 'system', // default theme
+    dataValue: 'theme', // activate data-theme in <html> tag
+    classSuffix: '',
   },
   css: ['~/assets/css/main.css'],
   postcss: {

@@ -1,15 +1,6 @@
 <template>
-    <button 
-        class="
-            flex items-center justify-center
-            container mx-auto mb-10 shadow-xl sm:hover:scale-95 
-            sm:transition-transform bg-blueRibbon rounded-xl p-2 w-16
-            hover:opacity-90 mt-10"
-    >
-        <nuxt-link
-            class="text-white"
-            to="/school"
-        >
+    <button class="container mx-auto mb-10 flex items-center justify-center w-16 btn btn-active bg-primary text-primary-content hover:bg-neutral hover:text-primary">
+        <nuxt-link class="h-full flex items-center" to="/school">
             volver
         </nuxt-link>
     </button>

@@ -1,16 +1,16 @@
 <template>
     <MainLayout>
         <section class="container mx-auto min-h-auto min-h-[192px]">
-            <h1 class="py-8 font-bold text-start text-xl sm:text-center
-            border-b border-b-gray-300">Aprende los colores</h1>
+            <h1 class="py-8 font-bold text-start text-xl md:text-2xl sm:text-center
+            border-b border-neutral-content">Aprende los colores</h1>
             <article class="py-8 px-0">
-                <div class="border-b border-b-gray-300 pb-6 sm:pl-4">
+                <div class="border-b border-neutral-content pb-6 sm:pl-4">
                     <p>
                         Aquí encontrarás una serie de enlaces con material audio visual para que aprendas los colores de forma correcta en inglés
                         y practicar lo aprendido. 
                     </p>
 
-                    <p class="mt-4 p-2 bg-blueRibbon text-white rounded-md flex items-center justify-center">
+                    <p class="mt-4 p-2 bg-secondary text-secondary-content rounded-md flex items-center justify-center">
                         visita los siguientes enlaces haciendo CLICK sobre ellos para descubrir el contenido
                     </p>
                 </div>

@@ -32,6 +32,36 @@ module.exports = {
       }
     }
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      "light",
+      "dark",
+      "synthwave",
+      "retro",
+      "cyberpunk",
+      "valentine",
+      "halloween",
+      "forest",
+      "aqua",
+      "black",
+      "luxury",
+      "dracula",
+      "lemonade",
+      "night",
+      "coffee",
+      "winter",
+      "dim",
+      "nord",
+      "sunset",
+    ],
+    darkTheme: "coffee",
+    base: true, 
+    styled: true, 
+    utils: true, 
+    prefix: "",
+    logs: true,
+    themeRoot: ":root", 
+  },
 }
 
