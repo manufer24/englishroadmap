@@ -17,7 +17,7 @@
                 <ul class="py-8 px-0">
                     <li class="mb-2 before:content-['1']">
                         <nuxt-link 
-                            class="text-lg underline px-2 sm:hover:text-blueribbon sm:transition:colors duration-200"
+                            class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/expressions-6-people-lesson.htm"
                             target="_blank" rel="noopener noreferrer"
                         >
@@ -26,7 +26,7 @@
                     </li>
                     <li class="mb-2 before:content-['2']">
                         <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-blueribbon sm:transition:colors duration-200"
+                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/expressions-7-identifying-lesson.htm"
                             target="_blank" rel="noopener noreferrer"
                         >
@@ -35,7 +35,7 @@
                     </li>
                     <li class="mb-2 before:content-['3']">
                         <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-blueribbon sm:transition:colors duration-200"
+                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/expressions-8-opposites-lesson.htm"
                             target="_blank" rel="noopener noreferrer"
                         >

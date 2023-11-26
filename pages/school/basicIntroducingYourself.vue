@@ -17,7 +17,7 @@
                 <ul class="py-8 px-0">
                     <li class="mb-2 before:content-['1']">
                         <nuxt-link 
-                            class="text-lg underline px-2 sm:hover:text-blueribbon sm:transition:colors duration-200"
+                            class="text-lg underline px-2 sm:hover:text-secondary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/expressions-1-introducing-lesson.htm"
                             target="_blank" rel="noopener noreferrer"
                         >
@@ -26,7 +26,7 @@
                     </li>
                     <li class="mb-2 before:content-['2']">
                         <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-blueribbon sm:transition:colors duration-200"
+                        class="text-lg underline px-2 sm:hover:text-secondary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/expressions-2-introducing-others-lesson.htm"
                             target="_blank" rel="noopener noreferrer"
                         >
@@ -35,7 +35,7 @@
                     </li>
                     <li class="mb-2 before:content-['3']">
                         <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-blueribbon sm:transition:colors duration-200"
+                        class="text-lg underline px-2 sm:hover:text-secondary sm:transition:colors duration-200"
                             to="https://www.youtube.com/watch?v=74FA1dyVVKs"
                             target="_blank" rel="noopener noreferrer"
                         >

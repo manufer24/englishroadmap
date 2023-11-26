@@ -1,6 +1,6 @@
 <template>
     <MainLayout>
-        <section class="container mx-auto min-h-auto min-h-[192px] border-b border-b-gray-300">
+        <section class="container mx-auto min-h-auto min-h-[192px] border-b border-neutral-content">
             <div class="py-6 pb-14 text-left">
                 <h1 class=" px-0 mb-2 text-2xl font-bold sm:mb-4 sm:text-center sm:text-5xl">
                     <span class="text-primary">E</span>
@@ -27,7 +27,7 @@
                 </p>
             </div>
         </section>
-        <section class="container mx-auto border-b border-b-gray-300 py-10">
+        <section class="container mx-auto border-b border-neutral-content py-10">
                 <h3 class="mb-8 rounded-md border-4 border-dotted border-blueRibbon p-2 text-center sm:w-[40%] sm:mx-auto"> 
                     Haz click en los botones para descubrir la información
                 </h3>

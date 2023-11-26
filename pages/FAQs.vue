@@ -10,9 +10,6 @@
                     <button class="btn btn-active w-56 bg-primary text-primary-content hover:bg-primary-content hover:text-primary text-lg mt-4">
                         <nuxt-link class="h-full flex items-center font-bold" to="https://github.com/manufer24" target="_blank" rel="noopener noreferrer">@manufer24</nuxt-link>
                     </button>
-                    <!-- <button class="bg-blueRibbon rounded-md p-2 mt-4">
-                        <nuxt-link class="text-white font-bold" to="https://github.com/manufer24" target="_blank" rel="noopener noreferrer">@manufer24</nuxt-link>
-                    </button> -->
                 </div>
             </article>
 
@@ -63,9 +60,3 @@
 import GoHomeBtn from '~/components/GoHomeBtn.vue';
 import MainLayoutVue from '~/layouts/MainLayout.vue';
 </script>
-
-<style>
-.color {
-    color: #e2e0e0;
-}
-</style>

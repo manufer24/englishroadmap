@@ -17,7 +17,7 @@
                 <ul class="py-8 px-0">
                     <li class="mb-2 before:content-['1']">
                         <nuxt-link 
-                            class="text-lg underline px-2 sm:hover:text-blueribbon sm:transition:colors duration-200"
+                            class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
                             to="https://arbolabc.com/abecedario-en-ingles"
                             target="_blank" rel="noopener noreferrer"
                         >
@@ -26,7 +26,7 @@
                     </li>
                     <li class="mb-2 before:content-['2']">
                         <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-blueribbon sm:transition:colors duration-200"
+                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/animals-printables-list.htm"
                             target="_blank" rel="noopener noreferrer"
                         >
@@ -35,7 +35,7 @@
                     </li>
                     <li class="mb-2 before:content-['3']">
                         <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-blueribbon sm:transition:colors duration-200"
+                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/abc-printables-games.htm"
                             target="_blank" rel="noopener noreferrer"
                         >
@@ -44,7 +44,7 @@
                     </li>
                     <li class="mb-2 before:content-['4']">
                         <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-blueribbon sm:transition:colors duration-200"
+                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/animals-printables-readers.htm"
                             target="_blank" rel="noopener noreferrer"
                         >
@@ -53,7 +53,7 @@
                     </li>
                     <li class="mb-2 before:content-['5']">
                         <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-blueribbon sm:transition:colors duration-200"
+                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/animals-printables-worksheets.htm"
                             target="_blank" rel="noopener noreferrer"
                         >
@@ -62,7 +62,7 @@
                     </li>
                     <li class="mb-2 before:content-['6']">
                         <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-blueribbon sm:transition:colors duration-200"
+                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/abc-printables-worksheets.htm"
                             target="_blank" rel="noopener noreferrer"
                         >
@@ -71,7 +71,7 @@
                     </li>
                     <li class="mb-2 before:content-['7']">
                         <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-blueribbon sm:transition:colors duration-200"
+                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/abc-printables-flashcards.htm"
                             target="_blank" rel="noopener noreferrer"
                         >
