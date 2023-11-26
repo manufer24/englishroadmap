@@ -1,7 +1,10 @@
 <template>
-    <header class="container mx-auto navbar flex justify-between lg:px-16 border-b border-neutral-content">
-        <nuxt-link to="/">
-            <img class="w-12 h-10 cursor-pointer hover:scale-110 sm:transition-transform" src="/icon-512x512.png" alt="English Roadmap logo">
+    <header class="container mx-auto navbar flex justify-between lg:px-28 border-b border-neutral-content">
+        <nuxt-link 
+            class="font-bold text-3xl text-primary"
+            to="/"
+        >
+            ER
         </nuxt-link>
         <nav class="flex justify-end ">
             <div class="dropdown dropdown-bottom dropdown-end mr-3">
