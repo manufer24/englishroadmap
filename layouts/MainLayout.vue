@@ -1,5 +1,5 @@
 <template>
-    <header class="container mx-auto navbar flex justify-between lg:px-28 border-b border-neutral-content">
+    <header class="container mx-auto fixed navbar flex justify-between lg:px-28 border-b border-neutral-content bg-base-200">
         <nuxt-link 
             class="font-bold text-3xl text-primary"
             to="/"
@@ -11,14 +11,14 @@
             <div tabindex="0" role="button" class="btn m-1 bg-primary text-primary-content hover:bg-primary-content hover:text-primary">Menu</div>
                 <ul class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52 border-2 border-primary">
                     <li><nuxt-link class="hover:bg-primary-content hover:text-primary" to="/FAQs">FAQS</nuxt-link></li>
-                    <li><nuxt-link class="hover:bg-primary-content hover:text-primary" to="/">Colaboradores</nuxt-link></li>
+                    <li><nuxt-link class="hover:bg-primary-content hover:text-primary" to="/contributors">Colaboradores</nuxt-link></li>
                 </ul>
             </div>
             <primaryMenu />
         </nav>
     </header>
 
-    <main>
+    <main class="pt-20">
         <slot />
     </main>
 </template>
