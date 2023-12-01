@@ -15,16 +15,7 @@
                     </p>
                 </div>
                 <ul class="py-8 px-0">
-                    <li class="mb-2 before:content-['1']">
-                        <nuxt-link 
-                            class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
-                            to="https://arbolabc.com/abecedario-en-ingles"
-                            target="_blank" rel="noopener noreferrer"
-                        >
-                         Aprende el ABC jugando
-                        </nuxt-link>
-                    </li>
-                    <li class="mb-2 before:content-['2']">
+                    <li class="mb-2 before:content-['1'] before:text-primary">
                         <nuxt-link 
                         class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/animals-printables-list.htm"
@@ -32,50 +23,43 @@
                         >
                         Aprende el ABC con los animales
                         </nuxt-link>
+                        <ul>
+                            <li class="pl-10 py-2 before:content-['1.1'] before:text-secondary">
+                                <nuxt-link
+                                    class="underline px-2 sm:hover:text-secondary sm:transition:colors duration-200" 
+                                    to="https://www.anglomaniacy.pl/expressions-1-introducing-printables.htm"
+                                    target="_blank" rel="noopener noreferrer"
+                                    >
+                                    actividades: juegos, pinta cuentos, pruebas y más...
+                                </nuxt-link>
+                            </li>
+                            <li class="pl-10 py-2 before:content-['1.2'] before:text-secondary">
+                                <nuxt-link
+                                    class="underline px-2 sm:hover:text-secondary sm:transition:colors duration-200" 
+                                    to="https://www.anglomaniacy.pl/expressions-1-introducing-comics.htm"
+                                    target="_blank" rel="noopener noreferrer"
+                                    >
+                                    historietas
+                                </nuxt-link>
+                            </li>
+                            <li class="pl-10 py-2 before:content-['1.3'] before:text-secondary">
+                                <nuxt-link 
+                                    class="underline px-2 sm:hover:text-secondary sm:transition:colors duration-200"
+                                    to="https://www.anglomaniacy.pl/abc-printables-flashcards.htm"
+                                    target="_blank" rel="noopener noreferrer"
+                                    >
+                                    juego de tarjetas del ABC
+                                </nuxt-link>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="mb-2 before:content-['3']">
+                    <li class="mb-2 before:content-['2'] before:text-primary">
                         <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
-                            to="https://www.anglomaniacy.pl/abc-printables-games.htm"
+                            class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
+                            to="https://arbolabc.com/abecedario-en-ingles"
                             target="_blank" rel="noopener noreferrer"
-                        >
-                        folletos del ABC que puedes colorear
-                        </nuxt-link>
-                    </li>
-                    <li class="mb-2 before:content-['4']">
-                        <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
-                            to="https://www.anglomaniacy.pl/animals-printables-readers.htm"
-                            target="_blank" rel="noopener noreferrer"
-                        >
-                        Lecturas cortas 
-                        </nuxt-link>
-                    </li>
-                    <li class="mb-2 before:content-['5']">
-                        <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
-                            to="https://www.anglomaniacy.pl/animals-printables-worksheets.htm"
-                            target="_blank" rel="noopener noreferrer"
-                        >
-                        Hojas de tareas con animales que puedes colorear
-                        </nuxt-link>
-                    </li>
-                    <li class="mb-2 before:content-['6']">
-                        <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
-                            to="https://www.anglomaniacy.pl/abc-printables-worksheets.htm"
-                            target="_blank" rel="noopener noreferrer"
-                        >
-                        Hojas de tareas del abc que puedes colorear
-                        </nuxt-link>
-                    </li>
-                    <li class="mb-2 before:content-['7']">
-                        <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
-                            to="https://www.anglomaniacy.pl/abc-printables-flashcards.htm"
-                            target="_blank" rel="noopener noreferrer"
-                        >
-                        juego de tarjetas del ABC
+                            >
+                            Aprende el ABC jugando
                         </nuxt-link>
                     </li>
                 </ul>

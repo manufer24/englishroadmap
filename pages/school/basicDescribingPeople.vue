@@ -15,7 +15,7 @@
                     </p>
                 </div>
                 <ul class="py-8 px-0">
-                    <li class="mb-2 before:content-['1']">
+                    <li class="mb-2 before:content-['1'] before:text-primary">
                         <nuxt-link 
                             class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/expressions-6-people-lesson.htm"
@@ -23,24 +23,86 @@
                         >
                          Describir personas
                         </nuxt-link>
+                        <ul>
+                            <li class="pl-10 py-2 before:content-['1.1'] before:text-secondary">
+                                <nuxt-link
+                                    class="underline px-2 sm:hover:text-secondary sm:transition:colors duration-200" 
+                                    to="https://www.anglomaniacy.pl/expressions-6-people-printables.htm"
+                                    target="_blank" rel="noopener noreferrer"
+                                >
+                                    actividades: juegos, pinta cuentos, pruebas y más...
+                                </nuxt-link>
+                            </li>
+                            <li class="pl-10 py-2 before:content-['1.2'] before:text-secondary">
+                                <nuxt-link 
+                                    class="underline px-2 sm:hover:text-secondary sm:transition:colors duration-200" 
+                                    to="https://www.anglomaniacy.pl/expressions-6-people-comics.htm"
+                                    target="_blank" rel="noopener noreferrer"
+                                >
+                                    historietas
+                                </nuxt-link>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="mb-2 before:content-['2']">
+                    <li class="mb-2 before:content-['2'] before:text-primary">
                         <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
+                            class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/expressions-7-identifying-lesson.htm"
                             target="_blank" rel="noopener noreferrer"
                         >
                         aprende a idientificar cosas y objetos
                         </nuxt-link>
+                        <ul>
+                            <li  
+                                class="pl-10 py-2 before:content-['2.1'] before:text-secondary"
+                                >
+                                <nuxt-link
+                                    class="underline px-2 sm:hover:text-secondary sm:transition:colors duration-200" 
+                                    to="https://www.anglomaniacy.pl/expressions-7-identifying-printables.htm"
+                                    target="_blank" rel="noopener noreferrer"
+                                    >
+                                    actividades: juegos, pinta cuentos, pruebas y más...
+                                </nuxt-link>
+                            </li>
+                            <li class="pl-10 py-2 before:content-['2.2'] before:text-secondary">
+                                <nuxt-link
+                                    class="underline px-2 sm:hover:text-secondary sm:transition:colors duration-200" 
+                                    to="https://www.anglomaniacy.pl/expressions-7-identifying-comics.htm"
+                                    target="_blank" rel="noopener noreferrer"
+                                    >
+                                    historietas
+                                </nuxt-link>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="mb-2 before:content-['3']">
+                    <li class="mb-2 before:content-['3'] before:text-primary">
                         <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
+                            class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/expressions-8-opposites-lesson.htm"
                             target="_blank" rel="noopener noreferrer"
                         >
                         aprende a identificar y diferenciar los opuestos
                         </nuxt-link>
+                        <ul>
+                            <li class="pl-10 py-2 before:content-['3.1'] before:text-secondary">
+                                <nuxt-link
+                                    class="underline px-2 sm:hover:text-secondary sm:transition:colors duration-200" 
+                                    to="https://www.anglomaniacy.pl/expressions-8-opposites-printables.htm"
+                                    target="_blank" rel="noopener noreferrer"
+                                    >
+                                    actividades: juegos, pinta cuentos, pruebas y más...
+                                </nuxt-link>
+                            </li>
+                            <li class="pl-10 py-2 before:content-['3.2'] before:text-secondary">
+                                <nuxt-link
+                                    class="underline px-2 sm:hover:text-secondary sm:transition:colors duration-200" 
+                                    to="https://www.anglomaniacy.pl/expressions-8-opposites-comics.htm"
+                                    target="_blank" rel="noopener noreferrer"
+                                    >
+                                    historietas
+                                </nuxt-link>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </article>
