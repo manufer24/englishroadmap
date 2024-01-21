@@ -27,7 +27,7 @@
                 </p>
             </div>
         </section>
-        <section class="container mx-auto py-10 border-b border-neutral-content">
+        <section class="container mx-auto py-10 ">
             <h3 class="mb-8 rounded-md border-4 border-dotted border-primary p-2 text-center sm:w-[40%] sm:mx-auto"> 
                     Haz click en los botones para descubrir su contenido
                 </h3>
