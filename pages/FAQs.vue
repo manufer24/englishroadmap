@@ -1,17 +1,6 @@
 <template>
     <MainLayoutVue>
         <section class="container mx-auto pt-4">
-            <article class="flex flex-col px-4 py-6 border-b border-neutral-content md:flex-row md:items-center md:gap-8">
-                <img class="skeleton inline-block self-center mb-4 w-48 h-60 rounded-full bg-primary" src="../public/img/author_avatar.webp" alt="author avatar">
-
-                <div>
-                    <h1 class="font-bold text-xl md:text-2xl pb-4 ">Hola, Soy Manuel Fernández</h1>
-                    <p >Yo creé englishroadmap.vercel.app para ayudar a las personas a encontrar un camino y aclarar sus dudas a la hora de aprender inglés. </p>
-                    <button class="btn btn-active w-56 bg-primary text-primary-content hover:bg-primary-content hover:text-primary text-lg mt-4">
-                        <nuxt-link class="h-full flex items-center font-bold" to="https://github.com/manufer24" target="_blank" rel="noopener noreferrer">@manufer24</nuxt-link>
-                    </button>
-                </div>
-            </article>
 
             <article class="py-6 px-4 border-b border-neutral-content">
                 <h2 class="font-bold text-xl md:text-2xl pb-4">¿Qué es englishroadmap.vercel.app? </h2>
