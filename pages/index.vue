@@ -45,7 +45,7 @@
                         </li>
                         <li>
                             <button class="btn btn-active w-56 bg-accent text-accent-content hover:bg-accent-content hover:text-accent text-lg">
-                                <nuxt-link class="h-full flex items-center" to="/escuela">Aprender</nuxt-link>
+                                <nuxt-link class="h-full flex items-center" to="/aprender">Aprender</nuxt-link>
                             </button>
                         </li>
                     </ul>

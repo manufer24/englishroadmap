@@ -32,7 +32,7 @@
 
             <article class="py-6 px-4 border-b border-neutral-content">
                 <h2 class="font-bold md:text-2xl text-xl pb-4 ">¿Puedo redistribuir el contenido?</h2>
-                <p>No, el contenido mostrado en esta comunidad es gratuito y realizado para uso personal y educativo en instituciones. Puedes compartir los enlaces, descargar contenido para escuelas o uso personal de forma gratuita, sin comercializar el contenido. </p>
+                <p>No, el contenido mostrado en esta comunidad es gratuito y realizado para uso personal y educativo en instituciones. Puedes compartir los enlaces, descargar contenido para aprenders o uso personal de forma gratuita, sin comercializar el contenido. </p>
             </article>
 
             <article class="py-6 px-4 border-b border-neutral-content">
