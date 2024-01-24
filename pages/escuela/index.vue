@@ -35,27 +35,27 @@
                     <ul class="flex flex-col flex-wrap items-center justify-center gap-4 md:flex-row">
                         <li>
                             <button class="btn btn-active bg-primary text-primary-content hover:bg-primary-content hover:text-primary text-lg">
-                                <nuxt-link class="h-full flex items-center" to="/school/basicABC"><span class="font-bold mr-2">#1</span> Abecedario</nuxt-link>
+                                <nuxt-link class="h-full flex items-center" to="/escuela/abecedario"><span class="font-bold mr-2">#1</span> Abecedario</nuxt-link>
                             </button>
                         </li>
                         <li>
                             <button class="btn btn-active w-56 bg-secondary text-secondary-content hover:bg-secondary-content hover:text-secondary text-lg">
-                                <nuxt-link class="h-full flex items-center" to="/school/basicIntroducingYourself"><span class="font-bold mr-2">#2</span>Presentarse</nuxt-link>
+                                <nuxt-link class="h-full flex items-center" to="/escuela/presentarse"><span class="font-bold mr-2">#2</span>Presentarse</nuxt-link>
                             </button>
                         </li>
                         <li>
                             <button class="btn btn-active w-56 bg-accent text-accent-content hover:bg-accent-content hover:text-accent text-lg">
-                                <nuxt-link class="h-full flex items-center" to="/school/basicGreetingAndGoodbye"><span class="font-bold mr-2">#3</span>Saludos/despedidas</nuxt-link>
+                                <nuxt-link class="h-full flex items-center" to="/escuela/saludos-y-despedidas"><span class="font-bold mr-2">#3</span>Saludos/despedidas</nuxt-link>
                             </button>
                         </li>
                         <li>
                             <button class="btn btn-active bg-primary text-primary-content hover:bg-primary-content hover:text-primary text-lg">
-                                <nuxt-link class="h-full flex items-center" to="/school/basicDescribingPeople"><span class="font-bold mr-2">#4</span>Describir/indentificar</nuxt-link>
+                                <nuxt-link class="h-full flex items-center" to="/escuela/describir-personas"><span class="font-bold mr-2">#4</span>Describir/indentificar</nuxt-link>
                             </button>
                         </li>
                         <li>
                             <button class="btn btn-active w-56 bg-secondary text-secondary-content hover:bg-secondary-content hover:text-secondary text-lg">
-                                <nuxt-link class="h-full flex items-center" to="/school/basicColors"><span class="font-bold mr-2">#5</span>Colors</nuxt-link>
+                                <nuxt-link class="h-full flex items-center" to="/escuela/colores"><span class="font-bold mr-2">#5</span>Colors</nuxt-link>
                             </button>
                         </li>
                     </ul>

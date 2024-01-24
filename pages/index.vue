@@ -35,17 +35,17 @@
                     <ul class="flex flex-col flex-wrap items-center justify-center gap-4 md:flex-row">
                         <li>
                             <button class="btn btn-active w-56 bg-primary text-primary-content hover:bg-primary-content hover:text-primary text-lg">
-                                <nuxt-link class="h-full flex items-center" to="/firstStep">primeros pasos</nuxt-link>
+                                <nuxt-link class="h-full flex items-center" to="/primeros-pasos">primeros pasos</nuxt-link>
                             </button>
                         </li>
                         <li>
                             <button class="btn btn-active w-56 bg-secondary text-secondary-content hover:bg-secondary-content hover:text-secondary text-lg">
-                                <nuxt-link class="h-full flex items-center" to="/advices">consejos</nuxt-link>
+                                <nuxt-link class="h-full flex items-center" to="/consejos">consejos</nuxt-link>
                             </button>
                         </li>
                         <li>
                             <button class="btn btn-active w-56 bg-accent text-accent-content hover:bg-accent-content hover:text-accent text-lg">
-                                <nuxt-link class="h-full flex items-center" to="/school">Aprender</nuxt-link>
+                                <nuxt-link class="h-full flex items-center" to="/escuela">Aprender</nuxt-link>
                             </button>
                         </li>
                     </ul>
