@@ -18,6 +18,33 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  app: {
+    head: {
+      title: 'English Roadmap',
+        htmlAttrs: {
+            lang: 'es-VE'
+        },
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'description', name: 'description', content: 'Hojas de ruta ordenadas, guias y contenido educaional que ayuden a orientar a las personas a la hora de elegir un camino y guiar su aprendizaje del idioma inglés.' },
+        { hid: 'title', name: 'title', content: 'English Roadmap' },
+        { hid: 'og:type', property: 'og:type', content: 'website' },
+            { hid: 'og:locale', property: 'og:locale', content: 'es-VE' },
+            {
+                hid: 'og:image',
+                property: 'og:image',
+                content: 'https://englishroadmap.vercel.app/public/img/desktop-view.png'
+            },
+            { hid: 'twitter:card', property: 'twitter:card', content: 'summary' },
+            {
+                hid: 'twitter:image',
+                property: 'twitter:image',
+                content: 'https://englishroadmap.vercel.app/public/img/desktop-view.png'
+            },
+      ],
+    }
+  },
   pwa: {
     manifest: {
       name: "English Roadmap",
