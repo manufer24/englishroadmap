@@ -54,9 +54,9 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="mb-2 before:content-['3']">
+                    <li class="mb-2 before:content-['3'] before:text-primary">
                         <nuxt-link 
-                        class="text-lg underline px-2 sm:hover:text-secondary sm:transition:colors duration-200"
+                        class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
                             to="https://www.anglomaniacy.pl/expressions-15-counting-lesson.htm"
                             target="_blank" rel="noopener noreferrer"
                         >
