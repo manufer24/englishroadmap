@@ -13,13 +13,13 @@
 
             <section class="space-x-2">
                 <primaryMenu />
-                <button class="dropdown dropdown-bottom dropdown-end mr-3">
+                <!-- <button class="dropdown dropdown-bottom dropdown-end mr-3">
                     <div tabindex="0" role="button" class="btn btn-primary">Menu</div>
                         <ul class="dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-52 mt-1 space-y-1">
                             <li><nuxt-link class="btn btn-sm btn-block btn-ghost justify-start" to="/FAQs">FAQS</nuxt-link></li>
                             <li><nuxt-link class="btn btn-sm btn-block btn-ghost justify-start" to="/colaboradores">Colaboradores</nuxt-link></li>
                         </ul>
-                </button>
+                </button> -->
             </section>
         </nav>
     </header>
