@@ -19,9 +19,12 @@ module.exports = {
       sm: "640px",
       md: "768px",
       lg: "1024px",
-      xl: "1064px",
+      xl: "1280px",
     },
     extend: {
+      fontFamily: {
+        Poppins: ["Poppins", "sans-serif"],
+      },
     }
   },
   plugins: [require("daisyui")],
