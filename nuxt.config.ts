@@ -34,13 +34,13 @@ export default defineNuxtConfig({
             {
                 hid: 'og:image',
                 property: 'og:image',
-                content: 'https://englishroadmap.vercel.app/public/img/desktop-view.png'
+                content: '/public/img/desktop-view.png'
             },
             { hid: 'twitter:card', property: 'twitter:card', content: 'summary' },
             {
                 hid: 'twitter:image',
                 property: 'twitter:image',
-                content: 'https://englishroadmap.vercel.app/public/img/desktop-view.png'
+                content: '/public/img/desktop-view.png'
             },
       ],
       link: [
