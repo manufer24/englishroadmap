@@ -34,27 +34,35 @@
                 <nav>
                     <ul class="flex flex-col flex-wrap items-center justify-center gap-4 md:flex-row">
                         <li>
-                            <button class="btn btn-active w-56 bg-primary text-primary-content hover:bg-primary-content hover:text-primary text-lg">
-                                <nuxt-link class="h-full flex items-center" to="/primeros-pasos">primeros pasos</nuxt-link>
-                            </button>
+                            <nuxt-link 
+                                class="btn btn-active min-w-[250px] bg-primary text-primary-content hover:bg-primary-content hover:text-primary text-lg" 
+                                to="/primeros-pasos"
+                                >
+                                    primeros pasos
+                                </nuxt-link>
                         </li>
                         <li>
-                            <button class="btn btn-active w-56 bg-secondary text-secondary-content hover:bg-secondary-content hover:text-secondary text-lg">
-                                <nuxt-link class="h-full flex items-center" to="/consejos">consejos</nuxt-link>
-                            </button>
+                            <nuxt-link 
+                            class="btn btn-active min-w-[250px] bg-secondary text-secondary-content hover:bg-secondary-content hover:text-secondary text-lg" 
+                            to="/consejos"
+                            >
+                                consejos
+                            </nuxt-link>
                         </li>
                         <li>
-                            <button class="btn btn-active w-56 bg-accent text-accent-content hover:bg-accent-content hover:text-accent text-lg">
-                                <nuxt-link class="h-full flex items-center" to="/aprender">Aprender</nuxt-link>
-                            </button>
+                            <nuxt-link 
+                                class="btn btn-active min-w-[250px] bg-accent text-accent-content hover:bg-accent-content hover:text-accent text-lg"
+                                to="/aprender"
+                            >
+                                Aprender
+                            </nuxt-link>
                         </li>
                     </ul>
                 </nav>
             </section>
     </MainLayout>
 </template>
-   
+
 <script setup>
 import MainLayout from '../layouts/MainLayout'
 </script>
-   
