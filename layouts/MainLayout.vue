@@ -2,14 +2,12 @@
 
     <header class="container py-2 px-1">
         <nav class="navbar flex justify-between rounded-2xl shadow-xl bg-base-100">
-            <button class="btn btn-primary rounded-xl">
                 <nuxt-link 
-                    class="font-bold text-xl"
+                    class="btn btn-primary rounded-xl font-bold text-xl"
                     to="/"
                 >
                     ER
                 </nuxt-link>
-            </button>
 
             <section class="space-x-2">
                 <primaryMenu />
