@@ -1,6 +1,6 @@
 <template>
 <MainLayout>
-    <section class="container mx-auto min-h-auto">
+    <section class="tracking-wider leading-tight font-Poppins container mx-auto min-h-auto">
         <h1 class="py-8 font-bold text-start text-xl md:text-2xl sm:text-center
         border-b border-b-gray-300">¿Cuáles son los primeros pasos para hablar inglés desde cero?</h1>
         <article class="py-8 px-0">
