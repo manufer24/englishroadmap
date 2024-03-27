@@ -744,196 +744,196 @@ const viewsData = {
             "slug": "home",
             "data": [
                 {
-                    "id": "1",
+                    "id": 1,
                     "name": "Abecedario",
                     "slug": "abecedario",
                     "style": "bg-primary hover:bg-primary-content hover:text-primary text-primary-content",
                     "path": "/aprender/abecedario"
                 },
                 {
-                    "id": "2",
+                    "id": 2,
                     "name": "Presentarse",
                     "slug": "presentarse",
                     "style": "bg-secondary hover:bg-secondary-content hover:text-secondary text-secondary-content",
                     "path": "/aprender/presentarse"
                 },
                 {
-                    "id": "3",
+                    "id": 3,
                     "name": "Saludos/despedidas",
                     "slug": "saludos-y-despedidas",
                     "style": "bg-accent hover:bg-accent-content hover:text-accent text-accent-content",
                     "path": "/aprender/saludos-y-despedidas"
                 },
                 {
-                    "id": "4",
+                    "id": 4,
                     "name": "Describir/indentificar",
                     "slug": "describir-personas",
                     "style": "bg-primary hover:bg-primary-content hover:text-primary text-primary-content",
                     "path": "/aprender/describir-personas"
                 },
                 {
-                    "id": "5",
+                    "id": 5,
                     "name": "Colores",
                     "slug": "colores",
                     "style": "bg-secondary hover:bg-secondary-content hover:text-secondary text-secondary-content",
                     "path": "/aprender/colores"
                 },
                 {
-                    "id": "6",
+                    "id": 6,
                     "name": "Números",
                     "slug": "numeros",
                     "style": "bg-accent hover:bg-accent-content hover:text-accent text-accent-content",
                     "path": "/aprender/numeros"
                 },
                 {
-                    "id": "7",
+                    "id": 7,
                     "name": "habla de tus cosas favoritas",
                     "slug": "habla-de-tus-cosas-favoritas",
                     "style": "bg-primary hover:bg-primary-content hover:text-primary text-primary-content",
                     "path": "/aprender/habla-de-tus-cosas-favoritas"
                 },
                 {
-                    "id": "8",
+                    "id": 8,
                     "name": "habla de cantidad",
                     "slug": "habla-de-cantidad",
                     "style": "bg-secondary hover:bg-secondary-content hover:text-secondary text-secondary-content",
                     "path": "/aprender/habla-de-cantidad"
                 },
                 {
-                    "id": "9",
+                    "id": 9,
                     "name": "Vamos de Compras",
                     "slug": "vamos-de-compras",
                     "style": "bg-accent hover:bg-accent-content hover:text-accent text-accent-content",
                     "path": "/aprender/vamos-de-compras"
                 },
                 {
-                    "id": "10",
+                    "id": 10,
                     "name": "habla de habilidades",
                     "slug": "habla-de-habilidades",
                     "style": "bg-primary hover:bg-primary-content hover:text-primary text-primary-content",
                     "path": "/aprender/habla-de-habilidades"
                 },
                 {
-                    "id": "11",
+                    "id": 11,
                     "name": "Pedir cosas a los demás",
                     "slug": "pedir-cosas-a-los-demas",
                     "style": "bg-secondary hover:bg-secondary-content hover:text-secondary text-secondary-content",
                     "path": "/aprender/pedir-cosas-a-los-demas"
                 },
                 {
-                    "id": "12",
+                    "id": 12,
                     "name": "Comidas y bebidas",
                     "slug": "comidas-y-bebidas",
                     "style": "bg-accent hover:bg-accent-content hover:text-accent text-accent-content",
                     "path": "/aprender/comidas-y-bebidas"
                 },
                 {
-                    "id": "13",
+                    "id": 13,
                     "name": "Sugerencias",
                     "slug": "sugerencias-a-las-personas",
                     "style": "bg-primary hover:bg-primary-content hover:text-primary text-primary-content",
                     "path": "/aprender/sugerencias-a-las-personas"
                 },
                 {
-                    "id": "14",
+                    "id": 14,
                     "name": "Preguntar y decir la hora",
                     "slug": "preguntar-y-decir-la-hora",
                     "style": "bg-secondary hover:bg-secondary-content hover:text-secondary text-secondary-content",
                     "path": "/aprender/preguntar-y-decir-la-hora"
                 },
                 {
-                    "id": "15",
+                    "id": 15,
                     "name": "Trabajo de las personas",
                     "slug": "trabajo-de-las-personas",
                     "style": "bg-accent hover:bg-accent-content hover:text-accent text-accent-content",
                     "path": "/aprender/trabajo-de-las-personas"
                 },
                 {
-                    "id": "16",
+                    "id": 16,
                     "name": "Preguntas Sí / No",
                     "slug": "preguntas-si-y-no",
                     "style": "bg-primary hover:bg-primary-content hover:text-primary text-primary-content",
                     "path": "/aprender/preguntas-si-y-no"
                 },
                 {
-                    "id": "17",
+                    "id": 17,
                     "name": "Días de la semana",
                     "slug": "dias-de-la-semana",
                     "style": "bg-secondary hover:bg-secondary-content hover:text-secondary text-secondary-content",
                     "path": "/aprender/dias-de-la-semana"
                 },
                 {
-                    "id": "18",
+                    "id": 18,
                     "name": "Meses del año",
                     "slug": "los-meses",
                     "style": "bg-accent hover:bg-accent-content hover:text-accent text-accent-content",
                     "path": "/aprender/los-meses"
                 },
                 {
-                    "id": "19",
+                    "id": 19,
                     "name": "Días especiales",
                     "slug": "dias-especiales",
                     "style": "bg-primary hover:bg-primary-content hover:text-primary text-primary-content",
                     "path": "/aprender/dias-especiales"
                 },
                 {
-                    "id": "20",
+                    "id": 20,
                     "name": "El clíma",
                     "slug": "el-clima",
                     "style": "bg-secondary hover:bg-secondary-content hover:text-secondary text-secondary-content",
                     "path": "/aprender/el-clima"
                 },
                 {
-                    "id": "21",
+                    "id": 21,
                     "name": "Estaciones del año",
                     "slug": "las-estaciones",
                     "style": "bg-accent hover:bg-accent-content hover:text-accent text-accent-content",
                     "path": "/aprender/las-estaciones"
                 },
                 {
-                    "id": "22",
+                    "id": 22,
                     "name": "Describir situaciones",
                     "slug": "describir-situaciones",
                     "style": "bg-primary hover:bg-primary-content hover:text-primary text-primary-content",
                     "path": "/aprender/describir-situaciones"
                 },
                 {
-                    "id": "23",
+                    "id": 23,
                     "name": "¿Cómo dar órdenes?",
                     "slug": "como-dar-ordenes",
                     "style": "bg-secondary hover:bg-secondary-content hover:text-secondary text-secondary-content",
                     "path": "/aprender/como-dar-ordenes"
                 },
                 {
-                    "id": "24",
+                    "id": 24,
                     "name": "habla sobre ubicación",
                     "slug": "habla-sobre-ubicación",
                     "style": "bg-accent hover:bg-accent-content hover:text-accent text-accent-content",
                     "path": "/aprender/habla-sobre-ubicacion"
                 },
                 {
-                    "id": "25",
+                    "id": 25,
                     "name": "pedir indicaciones",
                     "slug": "pedir-y-dar-indicaciones",
                     "style": "bg-primary hover:bg-primary-content hover:text-primary text-primary-content",
                     "path": "/aprender/pedir-y-dar-indicaciones"
                 },
                 {
-                    "id": "26",
+                    "id": 26,
                     "name": "Medios de transporte",
                     "slug": "medios-de-transporte",
                     "style": "bg-secondary hover:bg-secondary-content hover:text-secondary text-secondary-content",
                     "path": "/aprender/medios-de-transporte"
                 },
                 {
-                    "id": "27",
+                    "id": 27,
                     "name": "Gustos y Disgustos",
                     "slug": "gustos-y-disgustos",
                     "style": "bg-accent hover:bg-accent-content hover:text-accent text-accent-content",
                     "path": "/aprender/gustos-y-disgustos"
                 },
                 {
-                    "id": "28",
+                    "id": 28,
                     "name": "posesiones",
                     "slug": "habla-sobre-posesion",
                     "style": "bg-primary hover:bg-primary-content hover:text-primary text-primary-content",
