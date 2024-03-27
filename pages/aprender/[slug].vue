@@ -2,11 +2,11 @@
     <MainLayout>
         <section class="tracking-wider leading-tight font-Poppins container mx-auto min-h-auto min-h-[192px]">
             <h1 class="py-8 font-bold text-start text-xl md:text-2xl sm:text-center
-            border-b border-neutral-content"> {{ data.data.value.name }}</h1>
+            border-b border-neutral-content"> {{ linksDataResponse.data.value?.name }}</h1>
             <article class="py-8 px-0">
                 <div class="border-b border-neutral-content pb-6 sm:pl-4">
                     <p>
-                        {{ data.data.value.description }}
+                        {{ linksDataResponse.data.value?.description }}
                     </p>
 
                     <p class="mt-4 p-4 bg-primary text-primary-content rounded-md flex items-center justify-center">
@@ -15,7 +15,7 @@
                 </div>
                 <ul class="py-8 px-0">
                     <li
-                        v-for="links in data.data.value.linksSections" :key="links.name"
+                        v-for="links in linksData" :key="links.name"
                         class="mb-2 py-2 before:content-['1'] before:text-primary">
                         <nuxt-link 
                             class="text-lg underline px-2 sm:hover:text-primary sm:transition:colors duration-200"
@@ -47,9 +47,12 @@
     </MainLayout>
 </template>
     
-<script setup>
+<script setup lang="ts">
 import MainLayout from '~/layouts/MainLayout.vue';
 import BasicGoHomeBtn from '~/components/BasicGoHomeBtn.vue';
 
-const data = await useFetch('/api/views/' + useRoute().params.slug)
+const linksDataResponse = await useFetch<View>(`/api/views/${useRoute().params.slug}`)
+
+const linksData = linksDataResponse.data.value?.linksSections
+
 </script>

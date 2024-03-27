@@ -33,15 +33,14 @@
                 </h3>
 
                 <nav>
-                    <ul class="flex flex-col flex-wrap items-center justify-center gap-4 md:flex-row">
-                        <li v-for="links in data.data.value.data" :key="links.id">
-
+                    <ul v-if="homeData" class="flex flex-col flex-wrap items-center justify-center gap-4 md:flex-row">
+                        <li v-for="link in homeData" :key="link.id">
                             <nuxt-link
-                                :class="links.style" 
-                                class="btn min-w-[250px] lg:min-w-0 btn-active text-lg" 
-                                :to="`/aprender/${links.slug}`"
+                                :class="link.style"
+                                class="btn min-w-[250px] lg:min-w-0 btn-active text-lg"
+                                :to="`/aprender/${link.slug}`"
                             >
-                                {{ links.name }}
+                                {{ link.name }}
                             </nuxt-link>
                         </li>
                     </ul>
@@ -54,9 +53,12 @@
     </MainLayout>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import MainLayout from '~/layouts/MainLayout.vue';
 import GoHomeBtn from '~/components/GoHomeBtn.vue';
 
-const data  = await useFetch('/api/views/home')
+const data = await useFetch<View>('/api/views/home')
+const homeData = data.data.value?.homeData
+
 </script>
+
