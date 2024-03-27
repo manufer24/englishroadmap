@@ -26,10 +26,12 @@ const viewsData = {
                 },
                 {
                     "path": "https://arbolabc.com/abecedario-en-ingles",
+
                     "name": "Aprende el ABC jugando",
                     "links": []
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a presentarte",
@@ -56,6 +58,7 @@ const viewsData = {
                     "links": [
                         {
                             "path": "https://www.anglomaniacy.pl/expressions-2-introducing-others-printables.htm",
+
                             "name": "actividades: juegos, pinta cuentos, pruebas y más..."
                         },
                         {
@@ -69,7 +72,8 @@ const viewsData = {
                     "name": "Canción de presentación",
                     "links": []
                 }
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a saludar y despedirte",
@@ -96,6 +100,7 @@ const viewsData = {
                     "links": [
                         {
                             "path": "https://www.anglomaniacy.pl/expressions-3-greetings-responses-printables.htm",
+
                             "name": "actividades: juegos, pinta cuentos, pruebas y más..."
                         },
                         {
@@ -118,7 +123,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a describir personas e identificar cosas",
@@ -145,6 +151,7 @@ const viewsData = {
                     "links": [
                         {
                             "path": "https://www.anglomaniacy.pl/expressions-7-identifying-printables.htm",
+
                             "name": "actividades: juegos, pinta cuentos, pruebas y más..."
                         },
                         {
@@ -167,7 +174,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende los colores",
@@ -193,7 +201,8 @@ const viewsData = {
                     "name": "Aprende los colores con juegos divertidos",
                     "links": []
                 }
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende los Números",
@@ -220,6 +229,7 @@ const viewsData = {
                     ]
                 },
                 {
+
                     "path": "https://www.anglomaniacy.pl/expressions-15-counting-lesson.htm",
                     "name": "Preguntando con los números",
                     "links": [
@@ -233,7 +243,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a hablar de tus cosas favoritas",
@@ -254,7 +265,8 @@ const viewsData = {
                         }
                     ]
                 }
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a hablar sobre cantidad",
@@ -275,7 +287,8 @@ const viewsData = {
                         }
                     ]
                 }
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a comprar en inglés",
@@ -296,7 +309,8 @@ const viewsData = {
                         }
                     ]
                 }
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a hablar de tus habilidades y capacidades",
@@ -317,7 +331,8 @@ const viewsData = {
                         }
                     ]
                 }
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a pedir a la gente que haga cosas",
@@ -344,6 +359,7 @@ const viewsData = {
                     "links": [
                         {
                             "path": "https://www.anglomaniacy.pl/expressions-20-requests-printables.htm",
+
                             "name": "actividades: juegos, pinta cuentos, pruebas y más..."
                         },
                         {
@@ -352,7 +368,8 @@ const viewsData = {
                         }
                     ]
                 }
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende las comidas y bebidas",
@@ -379,6 +396,7 @@ const viewsData = {
                     "links": [
                         {
                             "path": "https://www.anglomaniacy.pl/expressions-22-drinks-printables.htm",
+
                             "name": "actividades: juegos, pinta cuentos, pruebas y más..."
                         },
                         {
@@ -401,7 +419,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a hacer sugerencias a las personas",
@@ -422,7 +441,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a preguntar y decir la hora",
@@ -443,7 +463,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a hablar del trabajo de las personas",
@@ -464,7 +485,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende sobre las preguntas que puedes responder Sí / No",
@@ -485,7 +507,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende sobre los días de la semana",
@@ -506,7 +529,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende sobre los meses del año",
@@ -527,7 +551,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende sobre los días especiales",
@@ -548,7 +573,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a hablar sobre el clíma",
@@ -569,7 +595,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a hablar sobre las estaciones del año",
@@ -590,7 +617,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a describir situaciones",
@@ -611,7 +639,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a dar órdenes a las personas",
@@ -632,7 +661,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a hablar sobre ubicación",
@@ -653,7 +683,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a pedir y dar indicaciones",
@@ -674,7 +705,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende sobre los medios de transporte",
@@ -695,7 +727,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende sobre los gustos y disgustos",
@@ -716,7 +749,8 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "Aprende a hablar sobre posesión",
@@ -737,12 +771,13 @@ const viewsData = {
                         }
                     ]
                 },
-            ]
+            ],
+            "homeData": []
         },
         {
             "name": "home",
             "slug": "home",
-            "data": [
+            "homeData": [
                 {
                     "id": 1,
                     "name": "Abecedario",
@@ -952,5 +987,6 @@ export default defineEventHandler((event) => {
 
     return view
 })
+
 
 
