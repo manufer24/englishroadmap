@@ -53,6 +53,10 @@ import BasicGoHomeBtn from '~/components/BasicGoHomeBtn.vue';
 
 const linksDataResponse = await useFetch<View>(`/api/views/${useRoute().params.slug}`)
 
+if (`${linksDataResponse.data.value?.slug}` !== useRoute().params.slug) {
+    navigateTo(`/`, { redirectCode: 301 })
+}
+
 const linksData = linksDataResponse.data.value?.linksSections
 
 </script>
